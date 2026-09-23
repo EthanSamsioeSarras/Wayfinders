@@ -15,7 +15,59 @@
 *.so
 *.dylib
 *.dll
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
 
+# Visual Studio / IDE
+.vs/
+.idea/
+*.VC.db
+*.VC.opendb
+*.sln
+*.opensdf
+*.sdf
+
+# Build files
+Build/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Crash reports
+*.dmp
+
+# Ignore auto-generated project files
+*.xcodeproj
+*.xcworkspace
+
+# Rider / JetBrains
+*.DotSettings.user
+
+# Python cache (if used)
+__pycache__/
+
+# Node (if any tools)
+node_modules/
+
+# Ignore backup files
+*.bak
+
+# Unreal specific junk
+Saved/Autosaves/
+Saved/Backup/
+
+# Ignore packaged builds
+WindowsNoEditor/
 # Fortran module files
 *.mod
 
